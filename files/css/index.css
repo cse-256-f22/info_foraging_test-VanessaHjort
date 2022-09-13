@@ -16,14 +16,16 @@
 #visit-our-school {
     text-align: center;
     background-color: #eee;
-    padding: 80px;
+    padding: 60px;
     margin-bottom: 2em;
 }
 
 #visit-our-school p {
     text-align: left;
-    margin-bottom: 2em;
+    margin-botto: 2em;
     font-size: 1.25em;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 #visit-our-school a {
@@ -58,6 +60,10 @@
 .column-header {
     background-color: #2b8282;
     padding: 19px 24px;
+}
+
+#left-header{
+    font-size: 2em;
 }
 
 .column h3 {
@@ -109,3 +115,10 @@ main hr {
     background-color: #eee;
     height: 1px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 40px;
+  }
